@@ -3,7 +3,8 @@
 
 <head>
     <!-- Bootstrap link. -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AS contact</title>
@@ -16,40 +17,76 @@
 </head>
 
 <body>
-    <div id="header-bg">
-        <header>
-            <h5 id="name">Alexandra Skinner</h5>
-            <div id="nav-right">
-                <a href="index.html">
-                    <h5 class="pages">About</h5>
-                </a>
-                <a href="portfolio.html">
-                    <h5 class="pages">Portfolio</h5>
-                </a>
-                <a href="contact.html">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="header-bg">
+                    <header>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand" href="#">Alexandra Skinner</a>
 
-                    <h5 class="pages"> Contact</h5>
-                </a>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+
+                    </header>
+                </div>
+
+
             </div>
-        </header>
-    </div>
-    <section class="main">
-        <h2>Contact</h2><br>
-       
-        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-            Name:<br>
-            <input id="contact-name" type="text" name="name"><br>
-            E-mail:<br>
-            <input id="contact-mail" type="text" name="mail"><br>
-            Message:<br>
-            <input id="contact-message" type="text" name="comment" size="50"><br><br>
-            <input id="submit" type="submit" value="Submit">
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Contact</h2><br>
 
-        </form>
-    </section>
-    <footer>
-        <h6>Copyright @</h6>
-    </footer>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    Name:<br>
+                    <input id="contact-name" type="text" name="name"><br>
+                    E-mail:<br>
+                    <input id="contact-mail" type="text" name="mail"><br>
+                    Message:<br>
+                    <input id="contact-message" type="text" name="comment" size="50"><br><br>
+                    <input id="submit" type="submit" value="Submit">
+
+                </form>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <footer>
+                    <h6>Copyright @</h6>
+                </footer>
+
+
+
+            </div>
+        </div>
+
+
+
 </body>
 
 </html>
