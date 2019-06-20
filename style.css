@@ -1,6 +1,30 @@
-@media screen and (max-width: 991px) {
-    .nav-item {
-        float: left;
+@media screen and (max-width: 575px) {
+    .first {text-align: center;
     }
+    
+    body {
+            text-align: center;
+        }   
+   
 
 }
+/* .navbar-nav {
+    flex-direction: row;
+}
+.nav-item {
+    margin-right: 10px;
+
+}
+body {
+    text-align: center;
+}
+.first {
+    width: 100%;
+}
+.navbar {
+    flex-wrap: nowrap;
+} */
+/* .navbar-brand {
+    margin-left: auto;
+
+} */
