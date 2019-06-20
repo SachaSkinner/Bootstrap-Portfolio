@@ -6,6 +6,16 @@
    
 
 }
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .item {
+        box-sizing: border-box;
+        
+
+    }
+
+
+}
+
 /* .navbar-nav {
     flex-direction: row;
 }
