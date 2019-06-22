@@ -6,33 +6,9 @@
    
 
 }
-/* @media screen and (min-width: 767px) and (max-width: 991px) {
-    .item {
-        box-sizing: border-box;
-        
-
-    }
-
-
-} */
-
-/* .navbar-nav {
-    flex-direction: row;
+#header {
+    position: fixed;
+    top: 0;
+    left:0 ;
+    
 }
-.nav-item {
-    margin-right: 10px;
-
-}
-body {
-    text-align: center;
-}
-.first {
-    width: 100%;
-}
-.navbar {
-    flex-wrap: nowrap;
-} */
-/* .navbar-brand {
-    margin-left: auto;
-
-} */
